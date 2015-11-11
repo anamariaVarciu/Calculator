@@ -5,6 +5,7 @@ import android.view.View.OnClickListener;
 import android.widget.TextView;
 
 public class DigitListener implements OnClickListener {
+	
 	public void onClick(View view) {
 		View p = view.getRootView();
     	TextView tv = (TextView)p.findViewById(R.id.val);
